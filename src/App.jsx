@@ -43,7 +43,7 @@ function CalendarReminder({ bookingDate }) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <button style={{ marginTop: "10px" }}>Add to Google Calendar</button>
+      <button className='btn-google'>Add to Google Calendar</button>
     </a>
   );
 }
@@ -59,12 +59,15 @@ function App() {
     return date;
   };
 
+  // ...existing code...
+
   return (
     <div className="container">
       <h1 className="heading">Train Ticket Booking Date Calculator</h1>
       <label htmlFor="travel-date">Select your travel date:</label>
       <input
         type="date"
+        placeholder='Enter a date'
         id="travel-date"
         value={travelDate}
         onChange={(e) => setTravelDate(e.target.value)}

@@ -17,6 +17,7 @@
 }
 
 label {
+  color: #000;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
   display: block;
@@ -28,7 +29,7 @@ input[type="date"] {
   border-radius: 6px;
   border: 1px solid #ccc;
   margin-bottom: 1.5rem;
-  text-align: ;
+  color: #fff;
 }
 
 .result {
@@ -41,4 +42,9 @@ input[type="date"] {
   margin-top: 2rem;
   color: #555;
   font-size: 0.95rem;
+}
+
+.btn-google {
+  color: #fff;
+  margin-top: 10px;
 }
